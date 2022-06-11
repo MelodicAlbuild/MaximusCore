@@ -1,0 +1,14 @@
+name: MaximusCore
+version: '${project.version}'
+main: net.melodicalbuild.maximuscore.MaximusCore
+api-version: 1.18
+authors: [ MelodicAlbuild ]
+description: The Core Mod for Maximus Server Mods
+
+commands:
+  executebungee:
+    description: Sends a Command to the Bungee Overhead
+    usage: /executebungee <command>
+    aliases:
+      - ebc
+      - ebg
